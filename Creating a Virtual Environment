@@ -1,0 +1,10 @@
+cd into project root folder
+rm -rf bin
+rm -rf inlcude
+rm -rf local
+virtualenv .
+source bin/activate
+cd into application folder(aamp)
+pip install -r requirements.txt
+
+
